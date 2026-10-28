@@ -5,6 +5,7 @@ This document records the current architectural direction and the constraints th
 ## Application shape
 
 - **Backend:** ASP.NET Core Web API with EF Core.
+- **Database:** MySQL 8.4, accessed through Oracle's `MySql.EntityFrameworkCore` provider. Configure the connection through `ConnectionStrings__DefaultConnection`; do not commit credentials.
 - **Frontend:** Vue 3, TypeScript, and Vite.
 - **Deployment:** containerized application, initially operated as a modular monolith.
 - **Modules:** identity and tenancy, CRM records, sales workflows, work management, and reporting.
