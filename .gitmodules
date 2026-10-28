@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Suchank2059/dot-net-crm-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Suchank2059/dot-net-crm-frontend.git
